@@ -1,0 +1,5 @@
+.navbar-brand {
+    text-transform: capitalize;
+    font-family: "Carter One","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
