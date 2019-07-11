@@ -3,7 +3,7 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-3">
                         <h3>{{ site.footer.location }}</h3>
                         <p>
                             {% for adress in site.address %}
@@ -11,7 +11,7 @@
 		                    {% endfor %}
                         </p>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-3">
                         <h3>{{ site.footer.social }}</h3>
                         <ul class="list-inline">
                             {% for network in site.social %}
@@ -21,9 +21,12 @@
 		                    {% endfor %}
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-3">
                         <h3>{{ site.footer.credits }}</h3>
                         <p>{{ site.credits }}</p>
+                    </div>
+                    <div class="footer-col col-md-3">
+                        <a href="http://qr.afip.gob.ar/?qr=H10Dg41sp0XKmEtIEeGbyw,," target="_F960AFIPInfo"><img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" border="0" width="50%"></a>
                     </div>
                 </div>
             </div>
